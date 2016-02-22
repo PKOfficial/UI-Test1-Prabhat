@@ -4,7 +4,6 @@
     <title>Knoldus-Shooper</title>
     <script src="js/jquery-2.2.0.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="sass/style.css">
     <script src="js/bootstrap.min.js"></script>
     <script>
     function showModal($param) {
@@ -241,7 +240,7 @@
         </div>
       </div>
       <!-- Main Navbar Start -->
-      <div class="row">
+      <div class="row" style="margin-top:20px;">
         <ul class="nav nav-tabs">
           <li role="presentation" class="active"><a href="#">Home</a></li>
 
@@ -466,11 +465,13 @@
 
       <div class="col-md-4" style="margin-top:20px;margin-bottom:20px;">
         <label style="margin-bottom:20px;"><b>Contact Us</b></label>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" class="form-control" id="email" required>
-          </div>
-          <button type="button" class="btn btn-info form-control">Say Hello!</button>
+          <form role="form">
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <button type="submit" class="btn btn-info form-control">Say Hello!</button>
+          </form>
       </div>
 
     </div>
